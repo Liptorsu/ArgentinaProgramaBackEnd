@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
+//@CrossOrigin(origins = "http://localhost:4200")
 @CrossOrigin(origins = "https://frontendargprg.web.app")
 @RequestMapping("/api/sebastian")
 public class sebastianController {
